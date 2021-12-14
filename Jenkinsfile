@@ -1,4 +1,5 @@
-pipeline {
+node {
+    def mvnHome
     stage('Preparation') {
         git 'https://github.com/HanezJr21/ExpressJS.git'
     }
